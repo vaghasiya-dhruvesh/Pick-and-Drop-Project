@@ -1,0 +1,202 @@
+.search{
+    /* border: 2px solid red; */
+    width: 290px;
+    margin-top: 100px;
+    margin-left: 80px;
+}
+
+.search input[type=text]{
+    border-radius: 10px;
+    padding-left: 15px;
+}
+
+.search input[type=submit]{
+    border: 2px solid red;
+    border-radius: 10px;
+    background-color: rgb(250, 80, 80);
+    font-family: cursive;
+}
+
+.search input[type=submit]:hover{
+    color: white;
+}
+
+.data .name{
+    /* border: 2px solid red; */
+    width: 660px;
+    height: 70px;
+}
+
+.data .name h2{
+    margin-top: 0px; 
+    font-size: 2.5rem; 
+    display: flex;
+    position: absolute;
+}
+
+.data .name p{
+    /* border: 2px solid red; */
+    margin-top: 0px;
+    margin-left: 480px;
+    font-size: 1.3rem;
+}
+
+.data .name a{
+    text-decoration: none;
+    color: blue;
+}
+
+.data .name a:hover{
+    text-decoration: none;
+    color: green;
+}
+.container1{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 1200px;
+    height: 330px;
+    margin-left: 10rem;
+    margin-top: 6rem;
+}
+
+.img{
+    /* border: 2px solid red; */
+    width: 500px;
+    height: 323px;
+    margin: 2px;
+    display: flex;
+    position: absolute;
+}
+
+.vr1{
+    border: 1px solid rgb(110, 108, 108);
+    width: 0px;
+    height: 323px;
+    margin-left: 508px;
+    margin-top: 2px;
+    display: flex;
+    position: absolute;
+}
+.data{
+    /* border: 2px solid red; */
+    width: 430px;
+    height: 319px;
+    margin-left: 530px;
+    margin-top: 2px;
+    padding: 2px;
+}
+
+.vr2{
+    border: 1px solid rgb(110, 108, 108);
+    width: 0px;
+    height: 60px;
+    margin-left: 5px;
+    margin-top: 85px;
+    display: flex;
+    position: absolute;
+}
+
+.data .brand{
+    width: 220px;
+    height: 70px;
+    font-size: 1.6rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+    display: flex;
+    position: absolute;
+}
+.data .brand h4{
+    margin: 0px;
+    height: 0px;
+    display: inline;
+    position: absolute;
+    color: rgb(93, 96, 96);
+}
+
+.data .color h4{
+    margin: 0px;
+    height: 0px;
+    display: inline;
+    position: absolute;
+    color: rgb(93, 96, 96);
+}
+.data .brand h5{
+    margin-top: 35px;
+    margin-left: 20px;
+    font-size: 33px;
+}
+.data .color h5{
+    margin-top: 32px;
+    margin-left: 20px;
+    font-size: 33px;
+}
+
+.vr3{
+    border: 1px solid rgb(110, 108, 108);
+    width: 0px;
+    height: 60px;
+    margin-left: 347px;
+    margin-top: 15px;
+    display: flex;
+    position: absolute;
+}
+.data .color{
+    /* border: 2px solid red; */
+    width: 170px;
+    height: 70px;
+    font-size: 1.6rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 353px;
+    margin-top: 10px;
+    display: flex;
+    position: absolute;
+}
+
+.data .price{
+    /* border: 2px solid red; */
+    width: 660px;
+    height: 130px;
+    font-size: 1.6rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 120px;
+    display: flex;
+    position: absolute;
+}
+
+.data .price h1{
+    margin: 0px;
+    height: 0px;
+    display: inline;
+    position: absolute;
+}
+
+.data .price h5{
+    /* border: 2px solid red; */
+    font-size: 1.5rem;
+    font-family: cursive;
+    color: green;
+    margin-top: 10px;
+    margin-left: 350px;
+    display: inline;
+    position: absolute;
+  }
+
+.data .price p{
+    margin-top: 90px;
+    font-size: 27px;
+}
+
+.data .price button{
+    width: 130px;
+    height: 50px;
+    margin-top: 76px;
+    margin-left: 220px;
+    font-size: 1.6rem;
+    background-color: rgb(34, 232, 34);
+    border-radius: 10px;
+}
+
+.data .price button:hover{
+    background-color: rgb(3, 167, 3);
+    cursor: pointer;
+}

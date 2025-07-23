@@ -1,0 +1,105 @@
+/* navbar css */
+.navbar-nav{
+    margin-left: 270px;
+    width: 400px;
+    height: 40px;
+    /* border: 2px solid red;    */
+    padding-bottom: 0px;
+    display: inline;
+    /* position: absolute; */
+  }
+  
+  .navbar-nav a{
+    /* border: 2px solid red; */
+    margin: 0px;
+    width: 110px;
+    height: 40px;
+    /* margin-left: 30px; */
+  }
+  
+  .icon img{
+    /* border: 2px solid red; */
+    margin-left: 550px;
+  }
+  .icon img:hover{
+    cursor: pointer;
+  }
+  /* navbar css */
+  
+  .fa{
+      display: inline-block;
+      font: normal normal normal 14px/1 FontAwesome;
+      font-size: inherit;
+      text-rendering: auto;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+/* Footer css */
+.footer{
+  background-color: white;
+}
+.footer .box-container{
+  border: 0px solid;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  gap: 4rem;
+}
+.footer .box-container .box{
+  padding-left: 1rem;
+}
+.footer .box-container .box h3{
+  font-size: 1.5rem;
+  color: black;
+}
+.footer .box-container .box .links{
+  display: block;
+  font-size: 1.7rem;
+  color: var(--light-color);
+  padding: 1rem 0;
+  text-decoration: none;
+}
+.footer .box-container .box .links i{
+  color: green;
+  padding-right: .5rem;
+}
+
+.footer .box-container .box .links:hover i{
+  padding-right: 2rem;
+}
+
+.footer .box-container .box p{
+  line-height: 1.8;
+  font-size: 2rem;
+  color: var(--light-color);
+  padding: 1rem 0;
+}
+
+.footer .box-container .box .share a {
+  height: 3rem;
+  width: 3rem;
+  line-height: 3rem ;
+  border-radius: .4rem;
+  font-size: 2rem;
+  color: black;
+  margin-left: 0rem;
+  background: #eee;
+  text-align: center;
+  text-decoration: none;
+}
+
+.footer .box-container .box .share a:hover{
+  background-color: green;
+  color: #fff;
+}
+
+.footer .box-container .box .email {
+  width: 85%;
+  margin: .7rem 0;
+  padding: 1rem 0;
+  border-radius: .5rem;
+  background-color: #eee;
+  font-size: 1rem;
+  color: black;
+  text-transform: none;
+}

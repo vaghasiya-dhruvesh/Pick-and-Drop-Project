@@ -1,0 +1,95 @@
+body {
+    font-family: cursive;
+    background-image: url('../image/gtr.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  input[type=text]{
+    width: 72%;
+    margin: 4px 0;
+    margin-left: 63px;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+
+  .city{
+    margin-right: 12px;
+  }
+  .mail{
+    margin-right: 34px;
+  }
+  .pass{
+    margin-right: 5px;
+  }
+
+  input[type=number]{
+    margin-left: 47px;
+    width: 25%;
+  }
+  input[type=password],
+  input[type=email] {
+    width: 72%;
+    margin: 10px 0;
+    margin-left: 31px;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+  
+  
+  input[type=date] {
+    width: 20%;
+    margin-top: 0%;
+    margin-left: 5px;
+  }
+ .bdate{
+   margin-left:84px;
+}
+  
+  button {
+    background-color: red;
+    color: white;
+    padding: 14px 20px;
+    border-radius: 5px;
+    margin: 7px 0;
+    width: 95%;
+    font-size: 18px;
+  }
+  
+  form {
+    width: 40rem;
+    height: 44rem;
+    margin: 35px 450px;
+    padding-left: 15px;
+    color: white;
+    font-family: cursive;
+    border-radius: 22px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    background-color: rgba(00, 00, 00, 0.625);
+  }
+  
+  button:hover {
+    opacity: 0.6;
+    cursor: pointer;
+  }
+  
+  .btn{
+    margin-left: 15px;
+  }
+  #card{
+    margin-left: 12px;
+  }
+  #lic{
+    margin-left: 50px;
+  }
+  
+  .heading {
+    text-align: center;
+  }
+
+  .add{
+    margin-left: 6.5%;
+    border-radius: 129px;
+    display: inline-flex;
+  }

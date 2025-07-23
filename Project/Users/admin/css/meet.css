@@ -1,0 +1,89 @@
+body {
+    font-family: cursive;
+    background-image: url('../image/gtr.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  label{
+    width: 140px;
+    display: inline-block;
+    margin: 0.2px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  input[type=text]{
+    width: 65%;
+    margin: 6px 0;
+    margin-left: 6px;
+    border-radius: 7px;
+    padding: 5px 10px;
+  }
+
+  input[type=number]{
+    margin-left: 9.5px;
+    width: 140x;
+  }
+  
+  input[type=date] {
+    width: 20%;
+    margin-top: 0%;
+    margin-left: 9.5px;
+  }
+ .puc{
+   margin-left:50px;
+}
+.Rcbook{
+  margin-left:45px;
+}
+.insurance{
+  margin-left:45px;
+}
+
+input[type=file]{
+  margin-left: 0px;
+}
+  
+  button {
+    background-color: red;
+    color: white;
+    padding: 14px 20px;
+    border-radius: 5px;
+    margin: 7px 0;
+    width: 95%;
+    font-size: 18px;
+  }
+  
+  form {
+    width: 50rem;
+    height: 50rem;
+    margin: 120px 600px;
+    padding-left: 25px;
+    color: white;
+    font-family: cursive;
+    border-radius: 22px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    background-color: rgba(00, 00, 00, 0.625);
+  }
+  
+  button:hover {
+    opacity: 0.6;
+    cursor: pointer;
+  }
+  
+  .btn{
+    /* margin-top: 20px; */
+    margin-bottom: 0%;
+  }
+  
+  .heading {
+    text-align: center;
+  }
+
+  .add{
+    margin-left: 6.5%;
+    border-radius: 129px;
+    display: inline-flex;
+  }

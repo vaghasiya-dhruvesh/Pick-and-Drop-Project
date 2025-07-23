@@ -1,0 +1,819 @@
+#log-button{
+    margin-left: 10px;
+    
+}
+
+  
+  .listing-section, .cart-section {
+    width: 100%;
+    float: left;
+    padding: 1%;
+    border-bottom: 0.01em solid #dddbdb;
+  }
+  
+  .product {
+    float: left;
+    width: 23%;
+    border-radius: 2%;
+    margin: 1%;
+  }
+  
+  .product:hover {
+    box-shadow: 1.5px 1.5px 2.5px 3px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 1.5px 1.5px 2.5px 3px rgba(0, 0, 0, 0.4);  
+    -moz-box-shadow:    1.5px 1.5px 2.5px 3px rgba(0, 0, 0, 0.4);
+  }
+  
+  .image-box {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 2% 2% 0 0;
+  }
+  
+  .images {
+    height: 15em;
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat;
+    border-radius: 2% 2% 0 0;
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+  }
+  
+  .images:hover {
+    transform: scale(1.2);
+    overflow: hidden;
+    border-radius: 2%;
+  }
+  
+  /* IMAGES */
+  #image-1 {background-image: url("https://cdni.autocarindia.com/utils/imageresizer.ashx?n=https://cms.haymarketindia.net/model/uploads/modelimages/Hyundai-Grand-i10-Nios-200120231541.jpg&w=350&h=251&q=90&c=1");}
+  
+  #image-2 {background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbXN9QKETJ4ywu4hBoVymNR3_GB2Q1bCMGzA&usqp=CAU")}
+  
+  #image-3 {background-image: url("https://cdni.autocarindia.com/utils/imageresizer.ashx?n=https://cms.haymarketindia.net/model/uploads/modelimages/HuracanModelImage.jpg")}
+  
+  #image-4 {background-image: url("https://imgd.aeplcdn.com/0x0/n/cw/ec/45390/gls-exterior-right-front-three-quarter-2.jpeg")}
+  
+  #image-5 {background-image: url("http://membrillo.com.au/wp-content/uploads/2016/11/bg-mango-01.jpg")}
+  
+  #image-6 {background-image: url("http://ell.h-cdn.co/assets/16/27/980x490/landscape-1467750721-gettyimages-146896572.jpg")}
+  
+  #image-7 {background-image: url("http://www.hesca.org/wp-content/uploads/2016/08/banana.jpg")}
+  
+  #image-8 {background-image: url("http://www.baag.com.au/pictures/produce/plums2.jpg")}
+  
+  #image-9 {background-image: url("https://ecowatchroar-img.rbl.ms/simage/https%3A%2F%2Fassets.rbl.ms%2F9458277%2F1200x600.jpg/2000%2C2000/J9vl96eLQCOEy3Xy/img.jpg")}
+  
+  #image-10 {background-image: url("https://www.parhlo.com/wp-content/uploads/2016/04/Valencia_market_-_lemons-1940x1454.jpg")}
+  
+  .text-box {
+    width: 100%;
+    float: left;
+    border: 0.01em solid #dddbdb;
+    border-radius: 0 0 2% 2%;
+    padding: 1em;
+  }
+  
+  h2, h3 {
+    float: left;
+    font-family: 'cursive', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    text-transform: uppercase;
+    margin: 0.2em auto;
+  }
+  
+  .item, .price {
+    clear: left;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .price {
+    color: Grey;
+  }
+  
+  .description, label,  input {
+    float: left;
+    clear: left;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    text-align: center;
+    margin: 0.2em auto;
+  }
+  
+  input:focus {
+    outline-color: #fdf;
+  }
+  
+  label {
+    width: 60%;
+  }
+  
+  .text-box input {
+    width: 15%;
+    clear: none;
+  }
+  
+  .text-box button {
+    margin-top: 1em;
+  }
+  
+  button {
+    padding: 2%;
+    background-color: #dfd;
+    border: none;
+    border-radius: 2%;
+  }
+  
+  button:hover {
+    bottom: 0.1em;
+  }
+  
+  button:focus {
+    outline: 0;
+  }
+  
+  button:active {
+    bottom: 0;
+    background-color: #fdf;
+  }
+  
+  .table-heading, .table-content {
+    width: 75%;
+    margin: 1% 12.25%;
+    float: left;
+    background-color: #dfd;
+  }
+  
+  .table-heading h2 {
+    padding: 1%;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .cart-product {
+    width: 50%;
+    float: left;
+  }
+  
+  .cart-price {
+    width: 15%;
+    float: left;
+  }
+  
+  .cart-quantity {
+    width: 10%;
+    float: left;
+  }
+  
+  .cart-total {
+    width: 25%;
+    float: left;
+  }
+  
+  .cart-image-box {
+    width: 20%;
+    overflow: hidden;
+    border-radius: 2%;
+    float: left;
+    margin: 1%;
+  }
+  
+  .cart-images {
+    height: 7em;
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat;
+  }
+  
+  .cart-item {
+    width: 20%;
+    float: left;
+    margin: 3.2em 1%;
+    text-align: center;
+  }
+  .cart-description {
+    width: 53%;
+    float: left;
+    margin: 3.2em 1%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    text-align: center;
+  }
+  
+  .cart-price h3, .cart-total h3 {
+    margin: 3.2em 5% 3.2em 20%;
+    width: 60%;
+  }
+  
+  .cart-quantity input {
+    margin: 3.2em 1%;
+    border: none;
+  }
+  
+  .remove {
+    width: 10%;
+    margin: 1px;
+    float: right;
+    clear: right;
+  }
+  
+  .coupon {
+    width: 20%;
+    background-color: #dfd;
+    margin: 1% 1% 1% 12.25%;
+    float: left;
+    height: 6em;
+  }
+  
+  .coupon input {
+    width: 60%;
+    border: none;
+    margin: 12.75% 5%;
+    padding: 1%;
+  }
+  
+  .coupon button {
+    width: 25%;
+    float: left;
+    clear: right;
+    margin: 12% 5% 12% 0;
+  }
+  
+  .keep-shopping {
+    width: 15%;
+    height: 6em;
+    float: left;
+    margin: 1% auto;
+    padding: 1%;
+    background-color: #dfd;
+  }
+  
+  .keep-shopping button {
+    text-transform: uppercase;
+    margin: 12% auto;
+    
+  }
+  
+  .checkout {
+    width: 37.25%;
+    margin: 1% 12.75% 1% 1%;
+    float: right;
+    background-color: #dfd;
+    height: 6em;
+  }
+  
+  .checkout button {
+    width: 30%;
+    clear: none;
+    margin: 5.4% 0 5.4% 5.5%;
+    text-transform: uppercase;
+  }
+  
+  .final-cart-total {
+    width: 15%;
+    float: right;
+    margin: 7%;
+    background-color: White;
+  }
+  
+  .final-cart-total h3 {
+    color: Black;
+  }  
+
+  #addcart
+  {
+    width: 50px;
+  }
+
+  .site-footer
+{
+  background-color:#26272b;
+  padding:10px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+.images{
+  border-image-width: 50%;
+}
+
+.carousel {
+  background: #EEE;
+}
+
+.carousel-cell {
+  width: 66%;
+  height: 200px;
+  margin-right: 10px;
+  background: #8C8;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+}
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(carousel-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+
+.cr-image{
+  height: 600px;
+}
+#carouselExampleControls{
+  margin-top: 5rem;
+}
+
+/* nav */
+
+:root{
+  --green: green;
+  --black: #130f40;
+  --light-color: #666;
+  --box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+  --border: 2rem solid rgba(0,0,0.1);
+  --outline: .1rem solid rgba(0,0,0.1);
+}
+
+header a{
+  text-decoration: none;
+  color: red;
+}
+
+:root{
+  --green: green;
+  --black: #130f40;
+  --light-color: #666;
+  --box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+  --border: 2rem solid rgba(0,0,0.1);
+  --outline: .1rem solid rgba(0,0,0.1);
+}
+
+:root{
+  --swiper-navigation-size: 44px;
+}
+.fa{
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    border: 0px solid;
+    justify-content: space-between;
+    padding: 1rem 9%;
+    background: #fff;
+    box-shadow: var(--box-shadow);
+}
+/* Navbar logo code */
+.header .logo{
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.header .logo:hover{
+  color: red;
+}
+
+.header .logo i{
+    color: rgb(10, 10, 10);
+}
+/* Navbar logo code */
+
+/* Navbar menu code */
+.navbar a{
+  font-family: cursive;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  border: none;
+  transition: all .2s linear;
+}
+.navbar{
+  margin-left: 8rem;
+}
+
+.header .navbar a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-family: cursive;
+    margin-left: 2rem;
+    color: black;
+}
+
+.header .navbar a:hover{
+    color: red;
+    text-decoration: none;
+}
+/* Navbar menu code */
+
+/* Search code */
+.icon div{
+    height: 3.2rem;
+    width: 3.5rem;
+    border: 1px solid;
+    margin-right: 10px;
+    line-height: 3.0rem;
+    border-radius: .5rem;
+    background: #eee;
+    color: black;
+    font-size: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.icon div:hover{
+    background: black;
+    color: white;
+}
+
+.header .search-form {
+  border: 1px solid;
+  position: absolute;
+  top: 110%;
+  right: -90%;
+  width: 50rem;
+  height: 3.5rem;
+  background: #fff;
+  border-radius: .5rem;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  box-shadow: var(--box-shadow);
+}
+.search-form.active{
+  right: 2rem;
+  /* transition: .4s linear; */
+}
+.header .search-form input{
+  height: 100%;
+  width: 100%;
+  background: none;
+  text-transform: none;
+  font-size: 1.9rem;
+  color: black;
+  padding: 0 1rem;
+}
+.header .search-form label{
+  font-size: 2.2rem;
+  padding-right: 1.5rem;
+  color: black;
+  cursor: pointer;
+}
+.header .search-form label:hover{
+  color: red;
+} 
+input[type=search]{
+  border: 0px;
+}
+
+/* Search code */
+
+/* Navbar Button code */
+.icon a{
+  font-size: 1.5rem;
+  color: red;
+  border: 1px solid black;
+  text-decoration: none;
+}
+
+#menu-btn{
+    display: none;
+}
+
+
+.btn1
+{
+    border: .2rem solid;
+    margin-top: 1rem;
+    margin-left: 0px;
+    display: inline-block;
+    padding: .4rem 1rem;
+    font-size: 1.3rem;
+    border-radius: .5rem;
+    color: var(--black);
+    cursor: pointer;
+    background: none;
+    text-decoration: none;
+}
+.btn2
+{
+    border: .2rem solid;
+    margin-top: 1rem;
+    margin-left: 7px;
+    display: inline-block;
+    padding: .4rem 1rem;
+    font-size: 1.3rem;
+    border-radius: .5rem;
+    color: var(--black);
+    cursor: pointer;
+    background: none;
+    text-decoration: none;
+}
+
+.btn1:hover
+{
+    background: black;
+    color: #fff;
+    text-decoration: none;
+}
+.btn2:hover
+{
+    background: black;
+    color: #fff;
+    text-decoration: none;
+}
+/* Navbar Button code */
+
+/* Features section */
+.heading{
+  text-align: center;
+  padding: 2rem 0;
+  padding-bottom: 3rem;
+  font-size: 3.5rem;
+  color: black;
+}
+.heading span{
+  background: rgb(13, 96, 0);
+  color: white;
+  display: inline-block;
+  padding: .5rem 3rem;
+  clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+}
+/* Features section */
+
+/* Brand section */
+.brand img{
+  height: 600px;
+  width: 1700px;
+  margin-left: 11rem;
+}
+/* Brand section */
+/* Footer css */
+.footer{
+  background-color: white;
+}
+.footer .box-container{
+  border: 0px solid;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  gap: 4rem;
+}
+.footer .box-container .box{
+  padding-left: 1rem;
+}
+.footer .box-container .box h3{
+  font-size: 1.5rem;
+  color: black;
+}
+.footer .box-container .box .links{
+  display: block;
+  font-size: 1.7rem;
+  color: var(--light-color);
+  padding: 1rem 0;
+  text-decoration: none;
+}
+.footer .box-container .box .links i{
+  color: green;
+  padding-right: .5rem;
+}
+
+.footer .box-container .box .links:hover i{
+  padding-right: 2rem;
+}
+
+.footer .box-container .box p{
+  line-height: 1.8;
+  font-size: 2rem;
+  color: var(--light-color);
+  padding: 1rem 0;
+}
+
+.footer .box-container .box .share a {
+  height: 4rem;
+  width: 4rem;
+  line-height: 4rem ;
+  border-radius: .5rem;
+  font-size: 3rem;
+  color: black;
+  margin-left: 1rem;
+  background: #eee;
+  text-align: center;
+  text-decoration: none;
+}
+
+.footer .box-container .box .share a:hover{
+  background-color: green;
+  color: #fff;
+}
+
+.footer .box-container .box .email {
+  width: 85%;
+  margin: .7rem 0;
+  padding: 1rem 0;
+  border-radius: .5rem;
+  background-color: #eee;
+  font-size: 1rem;
+  color: black;
+  text-transform: none;
+}
+.btn
+{
+    border: .2rem solid;
+    margin-top: 1rem;
+    margin-left: 0px;
+    display: inline-block;
+    padding: .4rem 1rem;
+    font-size: 1.3rem;
+    border-radius: .5rem;
+    color: var(--black);
+    cursor: pointer;
+    background: none;
+    text-decoration: none;
+    width: 85%;
+}
+.btn:hover
+{
+    background: black;
+    color: #fff;
+    text-decoration: none;
+}
+/* Footer css */

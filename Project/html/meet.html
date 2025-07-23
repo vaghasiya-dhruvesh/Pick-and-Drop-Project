@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page in HTML</title>
+    <link rel="stylesheet" href="meet.css">
+</head>
+<body>
+
+    <form name="registration"  action="" method="post" onsubmit="return validateForm()">
+        <div class="heading">
+            <h1>Vehicle Registration</h1>
+        </div>
+        <!-- Main container for all inputs -->
+        <div class="Container1">
+            <label class="cust">Vehicle Name:</label>
+            <input type="text" placeholder="Enter your Vehicle name" name="name" >
+
+            <br><br>
+            <label class="cust">Vehicle Number:</label>
+            <input type="text" placeholder="Enter your vehicle number" name="vno" >
+
+            <br><br>
+            <label class="brand">Brand:</label>
+            <input type="text" placeholder="Enter your vehicle brand" name="brand">
+
+            <br><br>
+            <label class="color">Color:</label>
+            <input type="text" placeholder="Enter your vehicle color" name="color">
+
+            <br><br>
+            <label class="price">Price:</label>
+            <input type="text" placeholder="Enter your vehicle price" name="price">
+
+            <br><br>
+            <label class="type">type:</label>
+            <input type="text" placeholder="type" name="type" >
+
+            <br><br>
+            <label class="fuel_type">Fuel Type:</label>
+            <input type="text" placeholder="fuel_type" name="fuel_type">
+
+            <br><br>
+            <label class="vdate">Vehicle Date:</label>
+            <input type="date" placeholder="Enter your vehicle hdate" name="vdate">
+
+            
+            <label class="puc">PUC:</label>
+            <input type="file" placeholder="PUC" name="puc">
+
+            <br><br>
+            <label class="duration">Duration:</label>
+            <input type="number" placeholder="Duration" name="duration" >
+
+            <label class="Rcbook">RCBOOK:</label>
+            <input type="file" placeholder="Rcbook" name="Rcbook">
+
+            <br><br>
+            <label class="seat">SEAT:</label>
+            <input type="number" placeholder="seat" name="seat" >
+            
+            <label class="insurance">INSURANCE:</label>
+            <input type="file" placeholder="insurance" name="insurance">
+    
+            <br><br><br><br>
+            <div class="btn">
+               	 <button type="submit" >Submit</button>
+            </div>
+        </div>
+    </form>
+    <script src="js/validate_registdata.js"></script>
+</body>
+</html>

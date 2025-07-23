@@ -1,0 +1,192 @@
+.cart{
+    font-size: 2rem;
+    font-family: cursive;
+    margin-left: 73px;
+    margin-top: 20px;
+}
+
+h2{
+    margin-left: 14rem;
+    margin-top: 12rem;
+    font-size: 1.5rem;
+}
+
+p{
+    margin-left: 14rem;
+}
+
+.container1{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 1200px;
+    height: 430px;
+    margin-left: 5rem;
+    margin-top: 6rem;
+}
+
+.container2{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 1200px;
+    height: 430px;
+    margin-left: 5rem;
+    margin-top: 6rem;
+}
+
+.img{
+    /* border: 2px solid red; */
+    width: 500px;
+    height: 323px;
+    margin: 2px;
+    display: flex;
+    position: absolute;
+}
+
+.vr1{
+    border: 1px solid rgb(110, 108, 108);
+    width: 0px;
+    height: 424px;
+    margin-left: 688px;
+    margin-top: 2px;
+    display: flex;
+    position: absolute;
+}
+.data{
+    /* border: 2px solid red; */
+    width: 430px;
+    height: 319px;
+    margin-left: 530px;
+    margin-top: 2px;
+    padding: 2px;
+}
+
+.vr2{
+    border: 1px solid rgb(110, 108, 108);
+    width: 0px;
+    height: 60px;
+    margin-left: 195px;
+    margin-top: 15px;
+    display: flex;
+    position: absolute;
+}
+
+.data .name{
+    width: 220px;
+    height: 70px;
+    font-size: 1.6rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    margin-left: 200px;
+    display: flex;
+    position: absolute;
+}
+h2{
+    font-size: 3rem;
+    margin: 0px;
+    height: 0px;
+    display: inline;
+    position: absolute;
+    color: rgb(255, 4, 4);
+}
+h3{
+    margin-left: 20px;
+    font-size: 33px;
+}
+
+.data .btn1{
+    /* border: 2px solid red; */
+    width: 180px;
+    height: 70px;
+    margin-left: 440px;
+    margin-top: 10px;
+    display: flex;
+    position: absolute;
+}
+
+#rent{
+    height: 50px;
+    width: 180px;
+    margin-top: 10px;
+    font-size: 1.6rem;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(3, 133, 3, 0.952);
+    border-radius: 10px;
+}
+
+#rent:hover{
+    background-color: rgb(19, 81, 19);
+    cursor: pointer;
+}
+
+.data .btn2{
+    /* border: 2px solid red; */
+    width: 150px;
+    height: 70px;
+    margin-left: 200px;
+    margin-top: 350px;
+    display: flex;
+    position: absolute;
+}
+
+.remove:hover{
+    background-color: rgba(184, 18, 18, 0.648);
+    cursor: pointer;
+}
+
+button{
+    height: 50px;
+    width: 180px;
+    margin-top: 10px;
+    background-color: red;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.data .price{
+    /* border: 2px solid red; */
+    width: 370px;
+    height: 170px;
+    font-size: 1.6rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 150px;
+    margin-left: 200px;
+    display: flex;
+    position: absolute;
+}
+
+h1{
+    margin: 0px;
+    height: 0px;
+    display: inline;
+    position: absolute;
+}
+
+.data .price p{
+    margin-top: 100px;
+    margin-left: 0px;
+    font-size: 27px;
+}
+
+.details{
+    /* border: 2px solid red; */
+    font-size: 1.5rem;
+    width: 240px;
+    margin-left: 440px;
+    margin-top: 350px;
+}
+
+input[type=submit]{
+    height: 50px;
+    width: 200px;
+    margin-top: 0px;
+    background-color: rgb(255, 136, 0);
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input[type=submit]:hover{
+    background-color: rgba(214, 146, 19, 0.434);
+    cursor: pointer;
+}

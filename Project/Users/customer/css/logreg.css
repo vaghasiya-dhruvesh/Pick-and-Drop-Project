@@ -1,0 +1,38 @@
+body{
+  font-family: cursive;
+  background-image: url('../image/gtr.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+input[type=button]{
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  border-radius: 5px;
+  margin: 7px 0;
+  width: 100%;
+  font-size: 18px;
+}
+
+form{
+  width:30rem;
+  margin: 200px 500px;
+  color:black;
+  border-radius: 22px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+
+input:hover {
+  opacity: 0.6;
+  cursor: pointer;
+  background-color: rgb(83, 83, 83);
+}
+
+.heading{
+  text-align: center;
+  color: white;
+}

@@ -1,0 +1,101 @@
+body{
+  font-family: cursive;
+  background-image: url('../image/gtr.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+input[type=email], input[type=password]{
+  width: 100%;
+  margin: 10px 0;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  padding: 15px 18px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  border-radius: 5px;
+  margin: 7px 0;
+  width: 100%;
+  font-size: 18px;
+}
+
+form{
+  width:30rem;
+  margin: 110px 500px;
+  color:white;
+  background-color: rgba(0, 0, 0, 0.625);
+  border-radius: 22px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+
+button:hover {
+  opacity: 0.6;
+  cursor: pointer;
+  background-color: rgb(83, 83, 83);
+}
+
+.heading{
+  text-align: center;
+}
+.Container1{
+  text-color: black;
+  padding: 16px;
+}
+
+.Container2{
+  align-item: center;
+  justify-content: space-between;
+  text-align: right;
+}
+
+.Container2 a{
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+.fpwd a {
+  color: yellow;
+  padding-top: 16px;
+}
+.fpwd a:hover{
+  color: white;
+}
+
+.fpwd a:link{
+  text-decoration: none;
+}
+
+.reg{
+  text-align: center;
+  color: white;
+}
+
+.reg a{
+  color: yellow;
+}
+
+.reg a:hover{
+  color: white;
+}
+
+.reg a:link{
+  text-decoration: none;
+}
+input {
+  background-color: rgba(255, 255, 255, 0.825);
+  color: black;
+  padding: 14px 20px;
+  border-radius: 5px;
+  margin: 7px 0;
+  width: 90%;
+  font-size: 18px;
+}
+
+
